@@ -34,8 +34,8 @@
 
 <p>Please note: I will continuously be working on providing README files whenever possible. If there's none available at the moment for the project you're looking at, please let me know if you have any questions or would like something explained. Otherwise, I hope to have all projects explained as soon as possible.</p>
 
-<h3>
-<a id="clustering-analysis" class="anchor" href="#clustering-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clustering Analysis</h3>
+<h2>
+<a id="clustering-analysis" class="anchor" href="#clustering-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clustering Analysis</h2>
 
 <p>In this project, I was given 50 different data sets each containing close to 800 data points. Each data set represented a "road" or a "train track" or a "field" or anything that can come in between two antenna points. The data points found in each data set were the time in seconds it took to get from one antenna to the other antenna. The task was to use Clustering Techniques to identify which of the 25 data sets represented a road.</p>
 
@@ -45,8 +45,8 @@
 
 <p>Unfortunately, the data can not be made available at this point as it is proprietary.</p>
 
-<h3>
-<a id="credit-scoring" class="anchor" href="#credit-scoring" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credit Scoring</h3>
+<h2>
+<a id="credit-scoring" class="anchor" href="#credit-scoring" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credit Scoring</h2>
 
 <p>This assignment uses the fairly infamous German Credit Scoring Data Set which classifies people described by a set of attributes as good or bad credit risks. The objective is to create a model than can predict if someone will be a good or bad credit risk.</p>
 
@@ -54,31 +54,48 @@
 
 <p><a href="https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29">Data</a></p>
 
-<h3>
-<a id="loess-example" class="anchor" href="#loess-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loess Example</h3>
+<h2>
+<a id="data-visualization" class="anchor" href="#data-visualization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Visualization</h2>
 
-<p>In this short assignment, we took a look at how the Loess method worked when graphing data. Data was scraped from the Wikipedia page of the historical winner times. The times for men and women were compared. Without the Loess method, the chart could be interpreted incorrectly in that female times could be faster than male times, but with this method, the true result becomes clearer.</p>
+<p>A classmate and I worked together on taking 1,000,000 gps traces from the recently released Uber data in San Francisco in order to create a data visualization. Throughout our work, we took the gps traces and mapped them against the districts in San Francisco and performed an analysis as to the activity that happened within and between the different districts. Our main purpose was to try to create a story as to how the traditional transportation infrastructure could be improved given users activities with Uber. </p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Boston%20Marathon/Boston_Marathon_Loess.html">Boston Marathon - Loess Example</a> </p>
+<p>As there were two of us working on this project, we experimented with a collaboration tool called <a href="http://www.dataiku.com/">Dataiku</a> which allowed us to write our own code which could then be easily linked and integrated within the tool. The following links are the codes that I contributed to the project (although there was a lot of collaboration so it is difficult to truly say we each worked on completely separate codes).</p>
 
-<h3>
-<a id="linear-regression-modeling" class="anchor" href="#linear-regression-modeling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linear Regression Modeling</h3>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/extract_uber_data.html">Extract Data from Uber data set</a></p>
+
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/Number%20of%20Trips%20Based%20on%20Districts.html">Number of Trips Matched Against Districts</a></p>
+
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/explore_trips.html">Explore Trips</a></p>
+
+<p><a href="https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/datavizvid.mp4">Short Video Slice of Final Outcome</a></p>
+
+<h2>
+<a id="linear-regression-modeling" class="anchor" href="#linear-regression-modeling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linear Regression Modeling</h2>
 
 <p>In this Linear Regression model, our group wanted to see if there was a relationship between the number of days needed to perform a clinical trial and various independent variables that surround data entry performance (i.e. if poor or missing fields and incorrect entries resulted in longer clinical trials). While not a standard linear regression study, the output of our attempt resulted in some interesting data visualizations during the data exploration piece. Although the resulting R-squared was humourously low and the model diagnostics were violated at every turn, this does set a good example of the method to implement linear regression and what needs to be taken into consideration when doing so.</p>
 
 <p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Data%20Entry/Clinical_Data_Entry.html">Data Entry Performance on Clinical Trials</a></p>
 
-<p>Once again, the data is proprietary and is not able to be shared.</p>
+<p>Once again, the data is proprietary and is not available for sharing.</p>
+
+<h2>
+<a id="loess-example" class="anchor" href="#loess-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loess Example</h2>
+
+<p>In this short assignment, we were tasked with understanding how the Loess method worked when graphing data. Data was scraped from the Wikipedia page of the historical winner times. The times for men and women were compared. Without the Loess method, the chart could be interpreted incorrectly in that female times could be faster than male times, but with this method, the true result becomes clearer.</p>
+
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Boston%20Marathon/Boston_Marathon_Loess.html">Boston Marathon - Loess Example</a> </p>
+
+<h2>
+<a id="natural-language-processing" class="anchor" href="#natural-language-processing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Natural Language Processing</h2>
+
+<p>Again, this was a collaborative effort. Together with a classmate, we created a "Crtics Consensus" Tool. It is an automated sentence ranking and extraction tool made for the purpose of extracting the most important positive and the most important negative sentences within a corpus of documents. Specifically, the tool will be applied to a series of documents pertaining to movie reviews to get an overall understanding of the general thoughts and opinions of the reviewers. This one has a fairly extensive README file explaining the project and the process we took as well as the learnings that came from our experimentation with different NLP tools (like NLTK and senti-net). </p>
+
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/NLP%20Summarizing%20Tool/Compiled%20NLP%20Code.html">Critics Consensus</a></p>
+
+<p><a href="https://github.com/rbtik/1415-Projects/blob/gh-pages/NLP%20Summarizing%20Tool/README.txt">README</a></p>
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<a id="i-hope-you-enjoyed-looking-through-these-projects-i-am-planning-on-keeping-this-page-updated-with-more-explanations-and-of-course-new-projects-please-feel-free-to-contact-me-if-you-have-any-questions-or-comments-thank-you" class="anchor" href="#i-hope-you-enjoyed-looking-through-these-projects-i-am-planning-on-keeping-this-page-updated-with-more-explanations-and-of-course-new-projects-please-feel-free-to-contact-me-if-you-have-any-questions-or-comments-thank-you" aria-hidden="true"><span class="octicon octicon-link"></span></a>I hope you enjoyed looking through these projects. I am planning on keeping this page updated with more explanations and of course new projects. Please feel free to contact me if you have any questions or comments. Thank you!</h3>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
