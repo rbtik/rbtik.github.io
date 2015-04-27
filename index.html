@@ -1,33 +1,22 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="UTF-8">
     <title>rbtik.github.io by rbtik</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">rbtik.github.io</h1>
-        <p class="header"></p>
+    <section class="page-header">
+      <h1 class="project-name">rbtik.github.io</h1>
+      <h2 class="project-tagline"></h2>
+    </section>
 
-
-
-        <ul>
-          <li><a class="buttons github" href="https://github.com/rbtik">GitHub Profile</a></li>
-        </ul>
-
-      </header>
-      <section>
-        <h1>
+    <section class="main-content">
+      <h1>
 <a id="welcome-to-my-github-repository" class="anchor" href="#welcome-to-my-github-repository" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my GitHub repository!</h1>
 
 <p>This website is where I store some of the work that I've been working on both in Python and in R. While some of these projects are assignments given for school, other projects were conducted outside of school as extracurricular points of interest. Other pieces of code may be simplistic but will serve to show what can be done with these tools with a few lines of simple and straight forward code (i.e. insightful and aesthetically pleasing data visualizations).</p>
@@ -39,7 +28,7 @@
 
 <p>In this project, I was given 50 different data sets each containing close to 800 data points. Each data set represented a "road" or a "train track" or a "field" or anything that can come in between two antenna points. The data points found in each data set were the time in seconds it took to get from one antenna to the other antenna. The task was to use Clustering Techniques to identify which of the 25 data sets represented a road.</p>
 
-<p><a href="http://nbviewer.ipython.org/github/rbtik/1415-Projects/blob/gh-pages/Clustering%20Example/Road%20Clustering.ipynb">Road Clustering</a></p>
+<p><a href="http://nbviewer.ipython.org/github/rbtik/1415-Projects/blob/gh-pages/Clustering%20Example/Road%20Clustering.ipynb">Road Clustering (Python)</a></p>
 
 <p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Clustering%20Example/README.txt">README</a></p>
 
@@ -50,7 +39,7 @@
 
 <p>This assignment uses the fairly infamous German Credit Scoring Data Set which classifies people described by a set of attributes as good or bad credit risks. The objective is to create a model than can predict if someone will be a good or bad credit risk.</p>
 
-<p><a href="http://nbviewer.ipython.org/github/rbtik/1415-Projects/blob/gh-pages/Credit%20Scoring/CreditScoring.ipynb">German Credit Scoring Case</a></p>
+<p><a href="http://nbviewer.ipython.org/github/rbtik/1415-Projects/blob/gh-pages/Credit%20Scoring/CreditScoring.ipynb">German Credit Scoring Case (R)</a></p>
 
 <p><a href="https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29">Data</a></p>
 
@@ -61,11 +50,11 @@
 
 <p>As there were two of us working on this project, we experimented with a collaboration tool called <a href="http://www.dataiku.com/">Dataiku</a> which allowed us to write our own code which could then be easily linked and integrated within the tool. The following links are the codes that I contributed to the project (although there was a lot of collaboration so it is difficult to truly say we each worked on completely separate codes).</p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/extract_uber_data.html">Extract Data from Uber data set</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/extract_uber_data.html">Extract Data from Uber data set (Python)</a></p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/Number%20of%20Trips%20Based%20on%20Districts.html">Number of Trips Matched Against Districts</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/Number%20of%20Trips%20Based%20on%20Districts.html">Number of Trips Matched Against Districts (Python)</a></p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/explore_trips.html">Explore Trips</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/explore_trips.html">Explore Trips (Python)</a></p>
 
 <p><a href="https://github.com/rbtik/1415-Projects/blob/gh-pages/DataViz/datavizvid.mp4">Short Video Slice of Final Outcome</a></p>
 
@@ -74,7 +63,7 @@
 
 <p>In this Linear Regression model, our group wanted to see if there was a relationship between the number of days needed to perform a clinical trial and various independent variables that surround data entry performance (i.e. if poor or missing fields and incorrect entries resulted in longer clinical trials). While not a standard linear regression study, the output of our attempt resulted in some interesting data visualizations during the data exploration piece. Although the resulting R-squared was humourously low and the model diagnostics were violated at every turn, this does set a good example of the method to implement linear regression and what needs to be taken into consideration when doing so.</p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Data%20Entry/Clinical_Data_Entry.html">Data Entry Performance on Clinical Trials</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Data%20Entry/Clinical_Data_Entry.html">Data Entry Performance on Clinical Trials (R)</a></p>
 
 <p>Once again, the data is proprietary and is not available for sharing.</p>
 
@@ -83,14 +72,14 @@
 
 <p>In this short assignment, we were tasked with understanding how the Loess method worked when graphing data. Data was scraped from the Wikipedia page of the historical winner times. The times for men and women were compared. Without the Loess method, the chart could be interpreted incorrectly in that female times could be faster than male times, but with this method, the true result becomes clearer.</p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Boston%20Marathon/Boston_Marathon_Loess.html">Boston Marathon - Loess Example</a> </p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/Boston%20Marathon/Boston_Marathon_Loess.html">Boston Marathon - Loess Example (R)</a> </p>
 
 <h2>
 <a id="natural-language-processing" class="anchor" href="#natural-language-processing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Natural Language Processing</h2>
 
 <p>Again, this was a collaborative effort. Together with a classmate, we created a "Crtics Consensus" Tool. It is an automated sentence ranking and extraction tool made for the purpose of extracting the most important positive and the most important negative sentences within a corpus of documents. Specifically, the tool will be applied to a series of documents pertaining to movie reviews to get an overall understanding of the general thoughts and opinions of the reviewers. This one has a fairly extensive README file explaining the project and the process we took as well as the learnings that came from our experimentation with different NLP tools (like NLTK and senti-net). </p>
 
-<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/NLP%20Summarizing%20Tool/Compiled%20NLP%20Code.html">Critics Consensus</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/rbtik/1415-Projects/blob/gh-pages/NLP%20Summarizing%20Tool/Compiled%20NLP%20Code.html">Critics Consensus (Python)</a></p>
 
 <p><a href="https://github.com/rbtik/1415-Projects/blob/gh-pages/NLP%20Summarizing%20Tool/README.txt">README</a></p>
 
@@ -98,12 +87,15 @@
 
 <h3>
 <a id="i-hope-you-enjoyed-looking-through-these-projects-i-am-planning-on-keeping-this-page-updated-with-more-explanations-and-of-course-new-projects-please-feel-free-to-contact-me-if-you-have-any-questions-or-comments-thank-you" class="anchor" href="#i-hope-you-enjoyed-looking-through-these-projects-i-am-planning-on-keeping-this-page-updated-with-more-explanations-and-of-course-new-projects-please-feel-free-to-contact-me-if-you-have-any-questions-or-comments-thank-you" aria-hidden="true"><span class="octicon octicon-link"></span></a>I hope you enjoyed looking through these projects. I am planning on keeping this page updated with more explanations and of course new projects. Please feel free to contact me if you have any questions or comments. Thank you!</h3>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+
+    </section>
+
+  
   </body>
 </html>
+
